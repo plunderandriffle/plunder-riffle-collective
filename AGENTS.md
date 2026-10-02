@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Keep the marketing site as a single-page TanStack route with CSS-driven product diagrams; this preserves fast loading and avoids decorative media dependencies.
