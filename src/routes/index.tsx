@@ -40,7 +40,7 @@ function Index() {
         </nav>
       </header>
 
-      <section id="top" className="relative min-h-[calc(100svh-4rem)] overflow-hidden border-b border-border px-5 pt-12 md:px-10 md:pt-20">
+      <section id="top" className="relative overflow-hidden border-b border-border px-5 pt-12 md:px-10 md:pt-20">
         <div className="mx-auto max-w-[1440px]">
           <p className="flex items-center gap-2 text-[10px] font-semibold uppercase tracking-[0.22em] text-muted-foreground"><span className="signal-pulse size-2 rounded-full bg-primary" />The tokenized marketing engine</p>
           <h1 className="mt-6 max-w-[1100px] font-display text-[clamp(3.2rem,8vw,8.5rem)] font-semibold leading-[0.9] tracking-normal">Your token needs more than holders. It needs <span className="text-primary">distribution.</span></h1>
