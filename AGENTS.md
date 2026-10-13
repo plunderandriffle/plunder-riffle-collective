@@ -9,4 +9,6 @@
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
 
-- Keep the marketing site as a single-page TanStack route with CSS-driven product diagrams; this preserves fast loading and avoids decorative media dependencies.
+- Keep the marketing site as a single-page TanStack route with a dedicated live-showcase component; this keeps navigation simple and separates polling from presentation.
+- Fetch the public showcase directly in the browser and preserve its server ordering; CORS is explicitly public and no credentials are required.
+- Embed only on explicitly permitted origins and show direct original-creation links elsewhere; the upstream frame-ancestors policy cannot be changed by this frontend.
