@@ -31,7 +31,7 @@ function Index() {
     <section id="top" className="meme-hero">
       <div className="hero-copy">
         <p className="brand-label"><span /> PLUNDER &amp; RIFFLE PRESENTS</p>
-        <h1>WHATEVER<br />{" "}YOU CAN<br />{" "}<span className="headline-outline">CREATE,</span>{" "}<br />YOU CAN<br />{" "}<span className="text-primary">AUTOMATE.</span></h1>
+        <h1>WHATEVER<br />{" "}YOU CAN<br />{" "}<span className="headline-outline">CREATE,</span><br />{" "}YOU CAN<br />{" "}<span className="text-primary">AUTOMATE.</span></h1>
         <p className="hero-support">One thought. Infinite content.<br />Any language in. Any language out.</p>
         <p className="hero-tagline">TIMELESS. AGELESS. BORDERLESS.</p>
       </div>
