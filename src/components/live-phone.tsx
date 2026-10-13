@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { ArrowUpRight, Radio, RefreshCw } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { canEmbedShowcase, mergeShowcase, parseShowcase, REFRESH_MS, ROTATION_MS, SHOWCASE_URL, type ShowcaseItem } from "@/lib/showcase";
+import { upstreamPermitsEmbed, mergeShowcase, parseShowcase, REFRESH_MS, ROTATION_MS, SHOWCASE_URL, type ShowcaseItem } from "@/lib/showcase";
 
 export function LivePhone() {
   const [items, setItems] = useState<ShowcaseItem[]>([]);
@@ -13,7 +13,7 @@ export function LivePhone() {
   const current = items.find(item => item.id === currentId) ?? items[0];
 
   useEffect(() => {
-    setEmbedAllowed(canEmbedShowcase(window.location.origin));
+    setEmbedAllowed(upstreamPermitsEmbed(window.location.origin));
     let disposed = false;
     let active: AbortController | undefined;
     async function refresh() {
