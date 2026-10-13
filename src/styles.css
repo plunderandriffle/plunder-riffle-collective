@@ -228,7 +228,7 @@
  .site-header { height: 70px; padding: 0 6%; }
  .brand-mark { font-size: 32px; } .nav-bots { font-size: 9px; padding-right: 0; }
  .meme-hero { display: flex; flex-direction: column; gap: 30px; padding: 26px 7% 30px; align-items: stretch; }
- .hero-copy h1 { font-size: 66px; line-height: .94; } .hero-copy h1 br { display: none; } .hero-copy h1 { max-width: 460px; } .hero-copy h1 span { display: inline; }
+ .hero-copy h1 { font-size: 56px; line-height: .94; } .hero-copy h1 br { display: none; } .hero-copy h1 { max-width: 460px; } .hero-copy h1 span { display: inline; }
  .hero-copy h1 br::after { content: " "; } .hero-copy h1 { word-spacing: 2px; } .hero-copy h1 > span::before { content: " "; } .hero-copy h1 > span::after { content: " "; }
  .brand-label { font-size: 8px; margin-bottom: 17px; }
  .hero-support, .hero-tagline { display: none; }

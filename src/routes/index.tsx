@@ -18,8 +18,8 @@ export const Route = createFileRoute("/")({
 const bots = [
   { name: "BankrMEMEbot", description: "Crypto, AI agents, and internet culture.", action: "TRY BANKR", icon: Bot, url: null },
   { name: "VC Meme Engine", description: "AI spending, startup satire, and who's paying for all this.", action: "TRY THE VC BOT", icon: TrendingUp, url: null },
-  { name: "Memeazon", description: "Hilarious product reviews and shopping content.", action: "TRY MEMEAZON", icon: ShoppingBag, url: null },
-  { name: "BTC Meme Engine", description: "Bitcoin narratives, culture, and crypto memes.", action: "TRY BTC BOT", icon: Bitcoin, url: null },
+  { name: "Memeazon", description: "Hilarious product reviews and shopping content.", action: "TRY MEMEAZON", icon: ShoppingBag, url: "https://t.me/TheMEMEazonbot" },
+  { name: "BTC Meme Engine", description: "Bitcoin narratives, culture, and crypto memes.", action: "TRY BTC BOT", icon: Bitcoin, url: "https://t.me/theBTCMEMEBOT" },
 ];
 
 function Index() {
@@ -31,7 +31,7 @@ function Index() {
     <section id="top" className="meme-hero">
       <div className="hero-copy">
         <p className="brand-label"><span /> PLUNDER &amp; RIFFLE PRESENTS</p>
-        <h1>WHATEVER<br />YOU CAN<br /><span className="headline-outline">CREATE,</span><br />YOU CAN<br /><span className="text-primary">AUTOMATE.</span></h1>
+        <h1>WHATEVER<br />{" "}YOU CAN<br />{" "}<span className="headline-outline">CREATE,</span><br />{" "}YOU CAN<br />{" "}<span className="text-primary">AUTOMATE.</span></h1>
         <p className="hero-support">One thought. Infinite content.<br />Any language in. Any language out.</p>
         <p className="hero-tagline">TIMELESS. AGELESS. BORDERLESS.</p>
       </div>
